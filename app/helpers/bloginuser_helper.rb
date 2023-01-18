@@ -1,0 +1,2 @@
+module BloginuserHelper
+end

@@ -9,4 +9,7 @@ Rails.application.routes.draw do
   resources :bkstckmanage
   resources :sbyname
   resources :sbyauthor
+  get  'login', to:'bloginuser#index'
+  post '/login', to:'bloginuser#create'
+  get  'logout', to:'bloginlogin#destroy'
 end
